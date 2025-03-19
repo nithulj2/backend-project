@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "an attempt to learn backend",
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "homepage": "https://github.com/nithulj2/backend-project#readme",
+  "bugs": {
+    "url": "https://github.com/nithulj2/backend-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nithulj2/backend-project.git"
+  },
+  "license": "ISC",
+  "author": "nithul",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
