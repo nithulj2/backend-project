@@ -1,6 +1,6 @@
 import {v2 as cloudinary} from 'cloudinary'
 import fs from 'fs'
-import { v2 as cloudinary } from 'cloudinary';
+
 
     // Configuration
     cloudinary.config({ 
@@ -25,3 +25,4 @@ import { v2 as cloudinary } from 'cloudinary';
                fs.unlinkSync(localFilePath) // remove the locally saved temporary file as the upload operation is failed
         }
     }
+    export {uploadOnCloudinary}
